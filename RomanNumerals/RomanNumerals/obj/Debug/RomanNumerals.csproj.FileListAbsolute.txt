@@ -1,0 +1,6 @@
+C:\Users\adity\Desktop\Projects\RomanNumerals\RomanNumerals\bin\Debug\RomanNumerals.dll
+C:\Users\adity\Desktop\Projects\RomanNumerals\RomanNumerals\bin\Debug\RomanNumerals.pdb
+C:\Users\adity\Desktop\Projects\RomanNumerals\RomanNumerals\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\adity\Desktop\Projects\RomanNumerals\RomanNumerals\obj\Debug\RomanNumerals.csprojResolveAssemblyReference.cache
+C:\Users\adity\Desktop\Projects\RomanNumerals\RomanNumerals\obj\Debug\RomanNumerals.dll
+C:\Users\adity\Desktop\Projects\RomanNumerals\RomanNumerals\obj\Debug\RomanNumerals.pdb
