@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
+using RomanToDecimalNameSpace;
 namespace RomanNumerals
 {
     [TestClass]
@@ -9,8 +9,8 @@ namespace RomanNumerals
         [TestMethod]
         public void TestMethod1()
         {
-            RomanNumerals rmn = new RomanNumerals();
-            int number = rmn.romanToDecimal("MMXVI");
+            RomanToDecimal rmn = new RomanToDecimal();
+            int number = rmn.converter("MMXVI");
             Assert.AreEqual(2016,number);
         }
     }

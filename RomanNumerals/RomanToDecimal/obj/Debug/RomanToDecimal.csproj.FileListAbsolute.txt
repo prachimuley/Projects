@@ -1,0 +1,5 @@
+C:\Users\adity\Desktop\Projects\RomanNumerals\RomanToDecimal\bin\Debug\RomanToDecimal.dll
+C:\Users\adity\Desktop\Projects\RomanNumerals\RomanToDecimal\bin\Debug\RomanToDecimal.pdb
+C:\Users\adity\Desktop\Projects\RomanNumerals\RomanToDecimal\obj\Debug\RomanToDecimal.csprojResolveAssemblyReference.cache
+C:\Users\adity\Desktop\Projects\RomanNumerals\RomanToDecimal\obj\Debug\RomanToDecimal.dll
+C:\Users\adity\Desktop\Projects\RomanNumerals\RomanToDecimal\obj\Debug\RomanToDecimal.pdb
