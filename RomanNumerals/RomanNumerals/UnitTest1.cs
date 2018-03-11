@@ -10,19 +10,31 @@ namespace RomanNumerals
         [TestMethod]
         public void TestWithRomanNumberWithAllDecreasingValueSequence()
         {
-            execRomanToDecimalConverter("CCCLXV");
+            execRomanToDecimalConverter("CCCLXV", 365);
         }
         [TestMethod]
-        public void TestWithRomanNumberWithAnIncreasingValueSequence()
+        public void TestWithRomanNumberWithAnIncreasingValueSequenceAtEnd()
         {
-            execRomanToDecimalConverter("CCLXXXIX");
+            execRomanToDecimalConverter("CCLXXXIX", 289);
         }
 
-    public void execRomanToDecimalConverter(String input)
+        [TestMethod]
+        public void TestWithRomanNumberWithAnIncreasingValueSequenceInMiddle()
+        {
+            execRomanToDecimalConverter("MDCIXLV", 1664);
+        }
+
+        [TestMethod]
+        public void TestWithRomanNumberWithMultipleIncreasingValueSequence()
+        {
+            execRomanToDecimalConverter("MIVXLCD", 1444);
+        }
+
+        public void execRomanToDecimalConverter(String input, int expected)
         {
             RomanToDecimal rmn = new RomanToDecimal();
             int number = rmn.converter(input);
-            Assert.AreEqual(365, number);
+            Assert.AreEqual(expected, number);
         }
     }
 }

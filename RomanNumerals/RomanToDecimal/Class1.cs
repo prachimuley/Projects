@@ -35,6 +35,15 @@ namespace RomanToDecimalNameSpace
                 {
                     number = map[s[i]] + number;
                 }
+                else
+                {
+                    number = number + (map[s[i + 1]] - map[s[i]]);
+                    i++;
+                    if (i == s.Length - 1)
+                    {
+                        return number;
+                    }
+                }
             }
             number = number + map[s[s.Length-1]];
             return number;
